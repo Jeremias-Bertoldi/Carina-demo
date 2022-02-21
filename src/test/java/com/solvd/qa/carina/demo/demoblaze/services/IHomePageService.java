@@ -1,6 +1,6 @@
 package com.solvd.qa.carina.demo.demoblaze.services;
 
-import com.solvd.qa.carina.demo.gui.pages.demoblaze.HomePage;
+import com.solvd.qa.pages.demoblaze.HomePage;
 import org.openqa.selenium.WebDriver;
 
 public interface IHomePageService {
