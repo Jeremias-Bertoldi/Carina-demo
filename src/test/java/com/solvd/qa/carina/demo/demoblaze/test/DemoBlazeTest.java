@@ -1,12 +1,14 @@
 package com.solvd.qa.carina.demo.demoblaze.test;
 
 import com.qaprosoft.carina.core.foundation.IAbstractTest;
+//import com.qaprosoft.carina.core.foundation.retry.RetryAnalyzer;
 import com.solvd.qa.carina.demo.demoblaze.services.IHomePageService;
 import com.solvd.qa.carina.demo.demoblaze.services.IProductDetailService;
-import com.solvd.qa.carina.demo.gui.pages.demoblaze.CartPage;
-import com.solvd.qa.carina.demo.gui.pages.demoblaze.HomePage;
-import com.solvd.qa.carina.demo.gui.pages.demoblaze.ProductDetailPage;
-import com.solvd.qa.carina.demo.gui.pages.demoblaze.ProductElement;
+import com.solvd.qa.pages.demoblaze.CartPage;
+import com.solvd.qa.pages.demoblaze.HomePage;
+import com.solvd.qa.pages.demoblaze.ProductDetailPage;
+import com.solvd.qa.pages.demoblaze.ProductElement;
+import com.solvd.qa.utils.RetryAnalyzer;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.testng.annotations.Test;
@@ -17,7 +19,7 @@ import static org.testng.Assert.assertTrue;
 public class DemoBlazeTest implements IAbstractTest, IHomePageService, IProductDetailService {
     private static final Logger log = LogManager.getLogger(DemoBlazeTest.class);
 
-    @Test
+    @Test(retryAnalyzer = com.solvd.qa.utils.RetryAnalyzer.class)
     public void VerifySignUpButtonTest() {
         HomePage homePage = goToSignUpModal(getDriver());
         assertEquals(homePage.getSignUpText(), "Sign up", "different text");
@@ -26,30 +28,31 @@ public class DemoBlazeTest implements IAbstractTest, IHomePageService, IProductD
     }
 
 
-    @Test
+    @Test(retryAnalyzer = RetryAnalyzer.class)
     public void VerifyCanEnterUsernameAndPasswordTest() {
         HomePage homePage = canEnterUsernameAndPassword(getDriver());
         assertEquals(homePage.getAlertText(), "Sign up successful.", "FATAL, not same");
         homePage.alert_clickAcceptButton();
     }
 
-    @Test
+    @Test(retryAnalyzer = com.solvd.qa.utils.RetryAnalyzer.class)
     public void verifyCanCloseModalTest() {
         HomePage homePage = canCloseModal(getDriver());
         assertEquals(homePage.getSingUpButtonText(), "Sign up", "FATAL!, not same");
     }
 
-    @Test
+    @Test(retryAnalyzer = com.solvd.qa.utils.RetryAnalyzer.class)
     public void VerifyCannotSignUpWithAlreadyCreatedUserTest() {
         HomePage homePage = canEnterUsernameAndPassword(getDriver());
         assertEquals(homePage.getAlertText(), "This user already exist.", "FATAL, not same");
         homePage.alert_clickAcceptButton();
     }
 
-    @Test
+    @Test(retryAnalyzer = RetryAnalyzer.class)
     public void VerifyCanClickLogInButtonTest() {
         HomePage homePage = goToLogInModal(getDriver());
         assertEquals(homePage.modal_getLogInText(), "Log in", "FATAL!, not same");
+        assertEquals(true, false, "FATAL!, not same");
     }
 
     @Test
@@ -62,6 +65,7 @@ public class DemoBlazeTest implements IAbstractTest, IHomePageService, IProductD
     public void verifyCanLogOut(){
         HomePage homePage =  canLogOut(getDriver());
         assertEquals(homePage.getLogInText(), "Log in", "FATAL!, not same");
+        assertEquals(true, false, "FATAL!, not same");
     }
 
     @Test

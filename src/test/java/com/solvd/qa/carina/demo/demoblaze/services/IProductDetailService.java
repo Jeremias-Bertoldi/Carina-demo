@@ -1,9 +1,8 @@
 package com.solvd.qa.carina.demo.demoblaze.services;
 
-import com.solvd.qa.carina.demo.gui.pages.demoblaze.CartPage;
-import com.solvd.qa.carina.demo.gui.pages.demoblaze.HomePage;
-import com.solvd.qa.carina.demo.gui.pages.demoblaze.ProductDetailPage;
-import com.solvd.qa.carina.demo.gui.pages.demoblaze.ProductElement;
+import com.solvd.qa.pages.demoblaze.CartPage;
+import com.solvd.qa.pages.demoblaze.HomePage;
+import com.solvd.qa.pages.demoblaze.ProductDetailPage;
 import org.openqa.selenium.WebDriver;
 
 import static org.testng.Assert.assertEquals;
