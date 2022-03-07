@@ -1,5 +1,5 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite verbose="1" name="Carina Demo Tests - Hello World" parallel="methods">
+<suite thread-count="3" verbose="1" name="Carina Demo Tests - Hello World" parallel="tests">
 
 	<parameter name="suiteOwner" value="qpsdemo"/>
 	<parameter name="jenkinsJobName" value="Hello-World-Test"/>
@@ -16,6 +16,12 @@
 	<test name="Api Dollar test">
 		<classes>
 			<class name="com.solvd.qa.carina.demo.demoblaze.test.ApiDollarTest" />
+		</classes>
+	</test>
+
+	<test name="DemoBlazer products test">
+		<classes>
+			<class name="com.solvd.qa.carina.demo.demoblaze.test.DemoBlazeProductsTest" />
 		</classes>
 	</test>
 
