@@ -1,0 +1,6 @@
+[2022-03-06 04:59:28] [TestRunRegistrar.java] [1] [WARN] Reporting disabled: using no op test run registrar
+[2022-03-06 04:59:28] [IMessager.java] [1] [INFO] TEST [Carina-demo - verifyCanClickContactButton] STARTED at [16:59:28 2022-03-06]
+[2022-03-06 04:59:29] [IMessager.java] [93] [INFO] INFO: opening url 'https://www.demoblaze.com/'
+[2022-03-06 04:59:30] [DriverListener.java] [93] [INFO] URL 'https://www.demoblaze.com/' opened
+[2022-03-06 04:59:31] [DriverListener.java] [1] [INFO] PASS: element 'contactUsButton' is clicked.
+[2022-03-06 04:59:32] [IMessager.java] [1] [INFO] TEST [Carina-demo - verifyCanClickContactButton] PASSED at [16:59:32 2022-03-06]

@@ -1,0 +1,13 @@
+[2022-03-07 01:16:12] [TestRunRegistrar.java] [25] [WARN] Reporting disabled: using no op test run registrar
+[2022-03-07 01:16:12] [IMessager.java] [25] [INFO] TEST [DemoBlazer test - verifyWrongPassword] STARTED at [13:16:12 2022-03-07]
+[2022-03-07 01:16:13] [IMessager.java] [109] [INFO] INFO: opening url 'https://www.demoblaze.com/'
+[2022-03-07 01:16:15] [DriverListener.java] [109] [INFO] URL 'https://www.demoblaze.com/' opened
+[2022-03-07 01:16:15] [DriverListener.java] [25] [INFO] PASS: element 'loginButton' is clicked.
+[2022-03-07 01:16:16] [DriverListener.java] [25] [INFO] PASS: element 'modal_usernameInput' is clicked.
+[2022-03-07 01:16:16] [DriverListener.java] [25] [INFO] PASS: keys cleared in element 'modal_usernameInput'.
+[2022-03-07 01:16:17] [DriverListener.java] [25] [INFO] PASS: keys 'jeremias' are sent to element 'modal_usernameInput'.
+[2022-03-07 01:16:18] [DriverListener.java] [25] [INFO] PASS: element 'modal_passwordInput' is clicked.
+[2022-03-07 01:16:18] [DriverListener.java] [25] [INFO] PASS: keys cleared in element 'modal_passwordInput'.
+[2022-03-07 01:16:19] [DriverListener.java] [25] [INFO] PASS: keys 'asdahsdg' are sent to element 'modal_passwordInput'.
+[2022-03-07 01:16:19] [DriverListener.java] [25] [INFO] PASS: element 'modal_logInButton' is clicked.
+[2022-03-07 01:16:20] [IMessager.java] [25] [INFO] TEST [DemoBlazer test - verifyWrongPassword] PASSED at [13:16:20 2022-03-07]

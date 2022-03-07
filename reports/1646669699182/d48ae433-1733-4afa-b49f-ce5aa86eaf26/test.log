@@ -1,0 +1,13 @@
+[2022-03-07 01:16:03] [TestRunRegistrar.java] [25] [WARN] Reporting disabled: using no op test run registrar
+[2022-03-07 01:16:03] [IMessager.java] [25] [INFO] TEST [DemoBlazer test - verifyCanLoggingIn] STARTED at [13:16:03 2022-03-07]
+[2022-03-07 01:16:05] [IMessager.java] [98] [INFO] INFO: opening url 'https://www.demoblaze.com/'
+[2022-03-07 01:16:06] [DriverListener.java] [98] [INFO] URL 'https://www.demoblaze.com/' opened
+[2022-03-07 01:16:06] [DriverListener.java] [25] [INFO] PASS: element 'loginButton' is clicked.
+[2022-03-07 01:16:07] [DriverListener.java] [25] [INFO] PASS: element 'modal_usernameInput' is clicked.
+[2022-03-07 01:16:08] [DriverListener.java] [25] [INFO] PASS: keys cleared in element 'modal_usernameInput'.
+[2022-03-07 01:16:08] [DriverListener.java] [25] [INFO] PASS: keys 'jeremias' are sent to element 'modal_usernameInput'.
+[2022-03-07 01:16:09] [DriverListener.java] [25] [INFO] PASS: element 'modal_passwordInput' is clicked.
+[2022-03-07 01:16:10] [DriverListener.java] [25] [INFO] PASS: keys cleared in element 'modal_passwordInput'.
+[2022-03-07 01:16:10] [DriverListener.java] [25] [INFO] PASS: keys 'bertoldi' are sent to element 'modal_passwordInput'.
+[2022-03-07 01:16:11] [DriverListener.java] [25] [INFO] PASS: element 'modal_logInButton' is clicked.
+[2022-03-07 01:16:12] [IMessager.java] [25] [INFO] TEST [DemoBlazer test - verifyCanLoggingIn] PASSED at [13:16:12 2022-03-07]

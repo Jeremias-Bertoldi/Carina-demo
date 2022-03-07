@@ -1,0 +1,6 @@
+[2022-03-07 01:15:44] [TestRunRegistrar.java] [25] [WARN] Reporting disabled: using no op test run registrar
+[2022-03-07 01:15:44] [IMessager.java] [25] [INFO] TEST [DemoBlazer test - verifyCanClickPhonesButton] STARTED at [13:15:44 2022-03-07]
+[2022-03-07 01:15:45] [IMessager.java] [77] [INFO] INFO: opening url 'https://www.demoblaze.com/'
+[2022-03-07 01:15:46] [DriverListener.java] [77] [INFO] URL 'https://www.demoblaze.com/' opened
+[2022-03-07 01:15:47] [DriverListener.java] [25] [INFO] PASS: element 'phonesSection' is clicked.
+[2022-03-07 01:15:48] [IMessager.java] [25] [INFO] TEST [DemoBlazer test - verifyCanClickPhonesButton] PASSED at [13:15:48 2022-03-07]

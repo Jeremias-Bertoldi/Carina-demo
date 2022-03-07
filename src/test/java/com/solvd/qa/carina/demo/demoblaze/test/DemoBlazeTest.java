@@ -28,12 +28,12 @@ public class DemoBlazeTest implements IAbstractTest, IHomePageService, IProductD
     }
 
 
-    @Test(retryAnalyzer = RetryAnalyzer.class)
-    public void VerifyCanEnterUsernameAndPasswordTest() {
-        HomePage homePage = canEnterUsernameAndPassword(getDriver());
-        assertEquals(homePage.getAlertText(), "Sign up successful.", "FATAL, not same");
-        homePage.alert_clickAcceptButton();
-    }
+   // @Test(retryAnalyzer = RetryAnalyzer.class)
+   // public void VerifyCanEnterUsernameAndPasswordTest() {
+   //     HomePage homePage = canEnterUsernameAndPassword(getDriver());
+   //     assertEquals(homePage.getAlertText(), "Sign up successful.", "FATAL, not same");
+   //     homePage.alert_clickAcceptButton();
+   // }
 
     @Test(retryAnalyzer = com.solvd.qa.utils.RetryAnalyzer.class)
     public void verifyCanCloseModalTest() {
@@ -48,12 +48,11 @@ public class DemoBlazeTest implements IAbstractTest, IHomePageService, IProductD
         homePage.alert_clickAcceptButton();
     }
 
-    @Test(retryAnalyzer = RetryAnalyzer.class)
-    public void VerifyCanClickLogInButtonTest() {
-        HomePage homePage = goToLogInModal(getDriver());
-        assertEquals(homePage.modal_getLogInText(), "Log in", "FATAL!, not same");
-        assertEquals(true, false, "FATAL!, not same");
-    }
+   // @Test(retryAnalyzer = RetryAnalyzer.class)
+   // public void VerifyCanClickLogInButtonTest() {
+   //     HomePage homePage = goToLogInModal(getDriver());
+   //     assertEquals(homePage.modal_getLogInText(), "Log in", "FATAL!, not same");
+   // }
 
     @Test
     public void verifyCanLoggingIn(){
@@ -61,12 +60,11 @@ public class DemoBlazeTest implements IAbstractTest, IHomePageService, IProductD
         assertEquals(homePage.logIn_getWelcomeMessage(), "Welcome jeremias", "FATAL!, not same");
     }
 
-    @Test
-    public void verifyCanLogOut(){
-        HomePage homePage =  canLogOut(getDriver());
-        assertEquals(homePage.getLogInText(), "Log in", "FATAL!, not same");
-        assertEquals(true, false, "FATAL!, not same");
-    }
+   // @Test
+   // public void verifyCanLogOut(){
+   //     HomePage homePage =  canLogOut(getDriver());
+   //     assertEquals(homePage.getLogInText(), "Log in", "FATAL!, not same");
+   // }
 
     @Test
     public void verifyWrongUsername(){
@@ -86,11 +84,11 @@ public class DemoBlazeTest implements IAbstractTest, IHomePageService, IProductD
         assertEquals(homePage.contactModal_getModalTitle(), "New message");
     }
 
-    @Test
-    public void verifyCanSendAMessage(){
-        HomePage homePage = canSendMessage(getDriver());
-        assertEquals(homePage.getAlertText(), "Thanks for the message!!", "FATAL!, not same");
-    }
+   // @Test
+   // public void verifyCanSendAMessage(){
+   //     HomePage homePage = canSendMessage(getDriver());
+   //     assertEquals(homePage.getAlertText(), "Thanks for the message!!", "FATAL!, not same");
+   // }
 
     @Test
     public void verifyCanClickPhonesButton(){
@@ -156,9 +154,9 @@ public class DemoBlazeTest implements IAbstractTest, IHomePageService, IProductD
         assertTrue(product1.equals(product2), "FATAL!, not same");
     }
 
-    @Test
-    public void verifyCanDeleteProduct(){
-        CartPage cartPage = canDeleteProduct(getDriver());
-        assertEquals(cartPage.getProduct(), null, "FATAL!, product not deleted");
-    }
+   // @Test
+   // public void verifyCanDeleteProduct(){
+   //     CartPage cartPage = canDeleteProduct(getDriver());
+   //     assertEquals(cartPage.getProduct(), null, "FATAL!, product not deleted");
+   // }
 }

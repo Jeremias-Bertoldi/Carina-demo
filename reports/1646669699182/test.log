@@ -1,0 +1,91 @@
+[2022-03-07 01:14:59] [CarinaListener.java] [1] [INFO] 
+============= Test configuration =============
+url=https://www.demoblaze.com/
+env=DEMO
+selenium_url=http://localhost:9515
+max_driver_count=3
+proxy_protocols=http,https,ftp
+browsermob_port=0
+auto_screenshot=true
+explicit_timeout=20
+retry_interval=5
+project_report_directory=./reports
+max_screen_history=10
+big_screen_width=-1
+big_screen_height=-1
+init_retry_count=0
+init_retry_interval=1
+retry_count=0
+locale=en_US
+thread_count=-1
+data_provider_thread_count=-1
+core_log_level=INFO
+core_log_packages=com.qaprosoft.carina.core
+log_all_json=true
+date_format=HH:mm:ss yyyy-MM-dd
+time_format=HH:mm:ss
+test_naming_pattern={method_name}
+element_loading_strategy=BY_PRESENCE_OR_VISIBILITY
+page_opening_strategy=BY_URL_AND_ELEMENT
+localization_encoding=UTF-8
+localization_testing=false
+default_device_timezone=GMT
+default_device_time_format=24
+default_device_language=en_US
+selenium_url=http://localhost:9515
+
+------------- Driver capabilities -----------
+capabilities.browserName=CHROME
+================================================
+
+[2022-03-07 01:14:59] [TestRunRegistrar.java] [1] [WARN] Reporting disabled: using no op test run registrar
+[2022-03-07 01:15:00] [Reflections.java] [1] [INFO] Reflections took 708 ms to scan 8 urls, producing 2369 keys and 11547 values 
+[2022-03-07 01:15:00] [FilterTestsListener.java] [1] [INFO] There are no any rules and limitations
+[2022-03-07 01:15:00] [CarinaListener.java] [1] [INFO] Set thread-count=1
+[2022-03-07 01:15:00] [CarinaListener.java] [1] [INFO] Set data-provider-thread-count=1
+[2022-03-07 01:15:00] [CarinaListener.java] [1] [INFO] CARINA_CORE_VERSION: 7.3.15
+[2022-03-07 01:15:00] [TestRunRegistrar.java] [1] [WARN] Reporting disabled: using no op test run registrar
+[2022-03-07 01:15:00] [TestRunRegistrar.java] [1] [WARN] Reporting disabled: using no op test run registrar
+[2022-03-07 01:15:00] [TestRunRegistrar.java] [1] [WARN] Reporting disabled: using no op test run registrar
+[2022-03-07 01:15:00] [TestRunRegistrar.java] [1] [WARN] Reporting disabled: using no op test run registrar
+[2022-03-07 01:15:00] [TestRunRegistrar.java] [1] [WARN] Reporting disabled: using no op test run registrar
+[2022-03-07 01:15:00] [TestRunRegistrar.java] [1] [WARN] Reporting disabled: using no op test run registrar
+[2022-03-07 01:15:00] [TestRunRegistrar.java] [1] [WARN] Reporting disabled: using no op test run registrar
+[2022-03-07 01:15:00] [TestRunRegistrar.java] [1] [WARN] Reporting disabled: using no op test run registrar
+[2022-03-07 01:15:00] [TestRunRegistrar.java] [1] [WARN] Reporting disabled: using no op test run registrar
+[2022-03-07 01:15:01] [TestRunRegistrar.java] [1] [WARN] Reporting disabled: using no op test run registrar
+[2022-03-07 01:15:01] [TestRunRegistrar.java] [1] [WARN] Reporting disabled: using no op test run registrar
+[2022-03-07 01:15:01] [TestRunRegistrar.java] [1] [WARN] Reporting disabled: using no op test run registrar
+[2022-03-07 01:15:01] [TestRunRegistrar.java] [1] [WARN] Reporting disabled: using no op test run registrar
+[2022-03-07 01:15:01] [TestRunRegistrar.java] [1] [WARN] Reporting disabled: using no op test run registrar
+[2022-03-07 01:15:01] [TestRunRegistrar.java] [1] [WARN] Reporting disabled: using no op test run registrar
+[2022-03-07 01:15:01] [TestRunRegistrar.java] [1] [WARN] Reporting disabled: using no op test run registrar
+[2022-03-07 01:16:27] [TestRunRegistrar.java] [1] [WARN] Reporting disabled: using no op test run registrar
+[2022-03-07 01:16:27] [TestRunRegistrar.java] [1] [WARN] Reporting disabled: using no op test run registrar
+[2022-03-07 01:16:27] [TestRunRegistrar.java] [1] [WARN] Reporting disabled: using no op test run registrar
+[2022-03-07 01:16:41] [IMessager.java] [1] [INFO] INFO: '**************** Test execution summary ****************'.
+[2022-03-07 01:16:41] [IMessager.java] [1] [INFO] RESULT #1: TEST [DemoBlazer test - VerifyCannotSignUpWithAlreadyCreatedUserTest] PASS [screenshots=file:///Users/chavo/solvd/demoblaze/Carina-demo/./reports/1646669699182/2ebdf522-e956-44b5-97ec-7a7312e1cbf9/report.html | log=file:///Users/chavo/solvd/demoblaze/Carina-demo/./reports/1646669699182/2ebdf522-e956-44b5-97ec-7a7312e1cbf9/test.log]
+[2022-03-07 01:16:41] [IMessager.java] [1] [INFO] RESULT #2: TEST [DemoBlazer test - VerifySignUpButtonTest] PASS [screenshots=file:///Users/chavo/solvd/demoblaze/Carina-demo/./reports/1646669699182/c826e485-f979-46ee-8e36-e32d9e6560b3/report.html | log=file:///Users/chavo/solvd/demoblaze/Carina-demo/./reports/1646669699182/c826e485-f979-46ee-8e36-e32d9e6560b3/test.log]
+[2022-03-07 01:16:41] [IMessager.java] [1] [INFO] RESULT #3: TEST [DemoBlazer test - verifyCanAddAProduct] PASS [screenshots=file:///Users/chavo/solvd/demoblaze/Carina-demo/./reports/1646669699182/102fff08-cc31-43af-84a1-bf5fe999f254/report.html | log=file:///Users/chavo/solvd/demoblaze/Carina-demo/./reports/1646669699182/102fff08-cc31-43af-84a1-bf5fe999f254/test.log]
+[2022-03-07 01:16:41] [IMessager.java] [1] [INFO] RESULT #4: TEST [DemoBlazer test - verifyCanBringTheCheapestPhone] PASS [screenshots=file:///Users/chavo/solvd/demoblaze/Carina-demo/./reports/1646669699182/0de5d4bb-dfa4-4819-a73c-0ae403413d66/report.html | log=file:///Users/chavo/solvd/demoblaze/Carina-demo/./reports/1646669699182/0de5d4bb-dfa4-4819-a73c-0ae403413d66/test.log]
+[2022-03-07 01:16:41] [IMessager.java] [1] [INFO] RESULT #5: TEST [DemoBlazer test - verifyCanBringTheMostExpensivePhone] PASS [screenshots=file:///Users/chavo/solvd/demoblaze/Carina-demo/./reports/1646669699182/b2697d8b-6146-43b1-9d25-677c626689a4/report.html | log=file:///Users/chavo/solvd/demoblaze/Carina-demo/./reports/1646669699182/b2697d8b-6146-43b1-9d25-677c626689a4/test.log]
+[2022-03-07 01:16:41] [IMessager.java] [1] [INFO] RESULT #6: TEST [DemoBlazer test - verifyCanClickAlertButton] PASS [screenshots=file:///Users/chavo/solvd/demoblaze/Carina-demo/./reports/1646669699182/6a59c8e4-6efc-4992-9214-8c280de8b978/report.html | log=file:///Users/chavo/solvd/demoblaze/Carina-demo/./reports/1646669699182/6a59c8e4-6efc-4992-9214-8c280de8b978/test.log]
+[2022-03-07 01:16:41] [IMessager.java] [1] [INFO] RESULT #7: TEST [DemoBlazer test - verifyCanClickContactButton] PASS [screenshots=file:///Users/chavo/solvd/demoblaze/Carina-demo/./reports/1646669699182/e2037c2e-c4d5-47f2-9be2-bef62360fb03/report.html | log=file:///Users/chavo/solvd/demoblaze/Carina-demo/./reports/1646669699182/e2037c2e-c4d5-47f2-9be2-bef62360fb03/test.log]
+[2022-03-07 01:16:41] [IMessager.java] [1] [INFO] RESULT #8: TEST [DemoBlazer test - verifyCanClickLaptopsButton] PASS [screenshots=file:///Users/chavo/solvd/demoblaze/Carina-demo/./reports/1646669699182/5a625052-350d-4872-a7b6-a875d683f364/report.html | log=file:///Users/chavo/solvd/demoblaze/Carina-demo/./reports/1646669699182/5a625052-350d-4872-a7b6-a875d683f364/test.log]
+[2022-03-07 01:16:41] [IMessager.java] [1] [INFO] RESULT #9: TEST [DemoBlazer test - verifyCanClickPhonesButton] PASS [screenshots=file:///Users/chavo/solvd/demoblaze/Carina-demo/./reports/1646669699182/716dc0b4-dba6-4d23-8cb4-03dffbd4cb48/report.html | log=file:///Users/chavo/solvd/demoblaze/Carina-demo/./reports/1646669699182/716dc0b4-dba6-4d23-8cb4-03dffbd4cb48/test.log]
+[2022-03-07 01:16:41] [IMessager.java] [1] [INFO] RESULT #10: TEST [DemoBlazer test - verifyCanCloseModalTest] PASS [screenshots=file:///Users/chavo/solvd/demoblaze/Carina-demo/./reports/1646669699182/e5dabf9d-7409-42e7-a266-1a074fb3702d/report.html | log=file:///Users/chavo/solvd/demoblaze/Carina-demo/./reports/1646669699182/e5dabf9d-7409-42e7-a266-1a074fb3702d/test.log]
+[2022-03-07 01:16:41] [IMessager.java] [1] [INFO] RESULT #11: TEST [DemoBlazer test - verifyCanGetTheCheapestLaptopPrice] PASS [screenshots=file:///Users/chavo/solvd/demoblaze/Carina-demo/./reports/1646669699182/f479abfc-8254-4a52-882c-784c4e523385/report.html | log=file:///Users/chavo/solvd/demoblaze/Carina-demo/./reports/1646669699182/f479abfc-8254-4a52-882c-784c4e523385/test.log]
+[2022-03-07 01:16:41] [IMessager.java] [1] [INFO] RESULT #12: TEST [DemoBlazer test - verifyCanGetTheMostExpensiveLaptopPrice] PASS [screenshots=file:///Users/chavo/solvd/demoblaze/Carina-demo/./reports/1646669699182/1a285597-71d0-42ea-a040-444023ea3571/report.html | log=file:///Users/chavo/solvd/demoblaze/Carina-demo/./reports/1646669699182/1a285597-71d0-42ea-a040-444023ea3571/test.log]
+[2022-03-07 01:16:41] [IMessager.java] [1] [INFO] RESULT #13: TEST [DemoBlazer test - verifyCanGoToProductsPage] PASS [screenshots=file:///Users/chavo/solvd/demoblaze/Carina-demo/./reports/1646669699182/cf2fabe0-f79a-4935-b85c-660fadbfdced/report.html | log=file:///Users/chavo/solvd/demoblaze/Carina-demo/./reports/1646669699182/cf2fabe0-f79a-4935-b85c-660fadbfdced/test.log]
+[2022-03-07 01:16:41] [IMessager.java] [1] [INFO] RESULT #14: TEST [DemoBlazer test - verifyCanLoggingIn] PASS [screenshots=file:///Users/chavo/solvd/demoblaze/Carina-demo/./reports/1646669699182/d48ae433-1733-4afa-b49f-ce5aa86eaf26/report.html | log=file:///Users/chavo/solvd/demoblaze/Carina-demo/./reports/1646669699182/d48ae433-1733-4afa-b49f-ce5aa86eaf26/test.log]
+[2022-03-07 01:16:41] [IMessager.java] [1] [INFO] RESULT #15: TEST [DemoBlazer test - verifyWrongPassword] PASS [screenshots=file:///Users/chavo/solvd/demoblaze/Carina-demo/./reports/1646669699182/50d301f2-886b-4fb4-9b81-2265fcf98052/report.html | log=file:///Users/chavo/solvd/demoblaze/Carina-demo/./reports/1646669699182/50d301f2-886b-4fb4-9b81-2265fcf98052/test.log]
+[2022-03-07 01:16:41] [IMessager.java] [1] [INFO] RESULT #16: TEST [DemoBlazer test - verifyWrongUsername] PASS [screenshots=file:///Users/chavo/solvd/demoblaze/Carina-demo/./reports/1646669699182/b06561b8-eb98-4bcb-ba21-e232a1a3dade/report.html | log=file:///Users/chavo/solvd/demoblaze/Carina-demo/./reports/1646669699182/b06561b8-eb98-4bcb-ba21-e232a1a3dade/test.log]
+[2022-03-07 01:16:41] [IMessager.java] [1] [INFO] RESULT #17: TEST [Api Dollar test - testConnection [L01]] PASS [log=file:///Users/chavo/solvd/demoblaze/Carina-demo/./reports/1646669699182/54e43b18-4a0e-4d84-b171-d5479503da8d/test.log]
+[2022-03-07 01:16:41] [IMessager.java] [1] [INFO] RESULT #18: TEST [Api Dollar test - testConnection [L02]] PASS [log=file:///Users/chavo/solvd/demoblaze/Carina-demo/./reports/1646669699182/2e35bd50-15b2-46c2-896d-40802177de8e/test.log]
+[2022-03-07 01:16:41] [IMessager.java] [1] [INFO] RESULT #19: TEST [Api Dollar test - testConnection [L03]] PASS [log=file:///Users/chavo/solvd/demoblaze/Carina-demo/./reports/1646669699182/a10eeed7-5d74-4a71-a03e-ccba6611d4eb/test.log]
+[2022-03-07 01:16:41] [IMessager.java] [1] [INFO] RESULT #20: TEST [Api Dollar test - testConnection [L04]] PASS [log=file:///Users/chavo/solvd/demoblaze/Carina-demo/./reports/1646669699182/c2dfdcd6-1a9d-499e-83af-6360bbc53b9a/test.log]
+[2022-03-07 01:16:41] [IMessager.java] [1] [INFO] RESULT #21: TEST [Api Dollar test - testCountryRisk] PASS [log=file:///Users/chavo/solvd/demoblaze/Carina-demo/./reports/1646669699182/0f070c7f-526c-4887-a0ca-4a57f3e26f93/test.log]
+[2022-03-07 01:16:41] [IMessager.java] [1] [INFO] RESULT #22: TEST [Api Dollar test - testEvolution [L01]] PASS [log=file:///Users/chavo/solvd/demoblaze/Carina-demo/./reports/1646669699182/3a1f9c2a-3495-40a6-8ef2-2b93ba6f030c/test.log]
+[2022-03-07 01:16:41] [IMessager.java] [1] [INFO] RESULT #23: TEST [Api Dollar test - testEvolution [L02]] PASS [log=file:///Users/chavo/solvd/demoblaze/Carina-demo/./reports/1646669699182/60a1aced-1692-49b4-bfb1-71583b460e24/test.log]
+[2022-03-07 01:16:41] [IMessager.java] [1] [INFO] RESULT #24: TEST [Api Dollar test - testEvolution [L03]] PASS [log=file:///Users/chavo/solvd/demoblaze/Carina-demo/./reports/1646669699182/e988320b-c701-4282-a060-dea53f7512f3/test.log]
+[2022-03-07 01:16:41] [IMessager.java] [1] [INFO] RESULT #25: TEST [Api Dollar test - testEvolution [L04]] PASS [log=file:///Users/chavo/solvd/demoblaze/Carina-demo/./reports/1646669699182/110f484d-6ea9-4f0a-be4f-3da97a9ef68a/test.log]

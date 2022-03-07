@@ -1,0 +1,6 @@
+[2022-03-07 01:15:13] [TestRunRegistrar.java] [25] [WARN] Reporting disabled: using no op test run registrar
+[2022-03-07 01:15:13] [IMessager.java] [25] [INFO] TEST [DemoBlazer test - VerifySignUpButtonTest] STARTED at [13:15:13 2022-03-07]
+[2022-03-07 01:15:14] [IMessager.java] [42] [INFO] INFO: opening url 'https://www.demoblaze.com/'
+[2022-03-07 01:15:15] [DriverListener.java] [42] [INFO] URL 'https://www.demoblaze.com/' opened
+[2022-03-07 01:15:16] [DriverListener.java] [25] [INFO] PASS: element 'signUpButton' is clicked.
+[2022-03-07 01:15:17] [IMessager.java] [25] [INFO] TEST [DemoBlazer test - VerifySignUpButtonTest] PASSED at [13:15:17 2022-03-07]

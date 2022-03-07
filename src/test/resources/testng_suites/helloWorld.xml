@@ -7,9 +7,15 @@
 
 	<parameter name="jenkinsEnvironments" value="DEMO"/>
 	
-	<test name="Hello World test">
+	<test name="DemoBlazer test">
 		<classes>
-			<class name="com.solvd.qa.carina.demo.HelloWorld" />
+			<class name="com.solvd.qa.carina.demo.demoblaze.test.DemoBlazeTest" />
+		</classes>
+	</test>
+
+	<test name="Api Dollar test">
+		<classes>
+			<class name="com.solvd.qa.carina.demo.demoblaze.test.ApiDollarTest" />
 		</classes>
 	</test>
 

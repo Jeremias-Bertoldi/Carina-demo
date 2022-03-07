@@ -1,0 +1,14 @@
+[2022-03-07 01:15:01] [TestRunRegistrar.java] [25] [WARN] Reporting disabled: using no op test run registrar
+[2022-03-07 01:15:01] [IMessager.java] [25] [INFO] TEST [DemoBlazer test - VerifyCannotSignUpWithAlreadyCreatedUserTest] STARTED at [13:15:01 2022-03-07]
+[2022-03-07 01:15:03] [IMessager.java] [28] [INFO] INFO: opening url 'https://www.demoblaze.com/'
+[2022-03-07 01:15:05] [DriverListener.java] [28] [INFO] URL 'https://www.demoblaze.com/' opened
+[2022-03-07 01:15:06] [DriverListener.java] [25] [INFO] PASS: element 'signUpButton' is clicked.
+[2022-03-07 01:15:07] [DriverListener.java] [25] [INFO] PASS: element 'signUpUsernameInputField' is clicked.
+[2022-03-07 01:15:08] [DriverListener.java] [25] [INFO] PASS: keys cleared in element 'signUpUsernameInputField'.
+[2022-03-07 01:15:08] [DriverListener.java] [25] [INFO] PASS: keys 'chavito33' are sent to element 'signUpUsernameInputField'.
+[2022-03-07 01:15:09] [DriverListener.java] [25] [INFO] PASS: element 'signUpPasswordInputField' is clicked.
+[2022-03-07 01:15:10] [DriverListener.java] [25] [INFO] PASS: keys cleared in element 'signUpPasswordInputField'.
+[2022-03-07 01:15:10] [DriverListener.java] [25] [INFO] PASS: keys 'chavito33' are sent to element 'signUpPasswordInputField'.
+[2022-03-07 01:15:11] [DriverListener.java] [25] [INFO] PASS: element 'signUpModalButton' is clicked.
+[2022-03-07 01:15:12] [DriverListener.java] [25] [INFO] Alert accepted
+[2022-03-07 01:15:13] [IMessager.java] [25] [INFO] TEST [DemoBlazer test - VerifyCannotSignUpWithAlreadyCreatedUserTest] PASSED at [13:15:13 2022-03-07]

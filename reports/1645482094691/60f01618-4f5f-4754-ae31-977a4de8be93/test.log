@@ -1,7 +1,0 @@
-[2022-02-21 07:21:35] [TestRunRegistrar.java] [1] [WARN] Reporting disabled: using no op test run registrar
-[2022-02-21 07:21:35] [IMessager.java] [1] [INFO] TEST [Carina-demo - verifyCanCloseModalTest] STARTED at [19:21:35 2022-02-21]
-[2022-02-21 07:21:36] [IMessager.java] [23] [INFO] INFO: opening url 'https://www.demoblaze.com/'
-[2022-02-21 07:21:38] [DriverListener.java] [23] [INFO] URL 'https://www.demoblaze.com/' opened
-[2022-02-21 07:21:39] [DriverListener.java] [1] [INFO] PASS: element 'signUpButton' is clicked.
-[2022-02-21 07:21:39] [DriverListener.java] [1] [INFO] PASS: element 'signUp_closeModalButton' is clicked.
-[2022-02-21 07:21:39] [IMessager.java] [1] [INFO] TEST [Carina-demo - verifyCanCloseModalTest] PASSED at [19:21:39 2022-02-21]

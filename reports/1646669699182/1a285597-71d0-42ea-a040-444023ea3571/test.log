@@ -1,0 +1,6 @@
+[2022-03-07 01:15:56] [TestRunRegistrar.java] [25] [WARN] Reporting disabled: using no op test run registrar
+[2022-03-07 01:15:56] [IMessager.java] [25] [INFO] TEST [DemoBlazer test - verifyCanGetTheMostExpensiveLaptopPrice] STARTED at [13:15:56 2022-03-07]
+[2022-03-07 01:15:57] [IMessager.java] [90] [INFO] INFO: opening url 'https://www.demoblaze.com/'
+[2022-03-07 01:15:58] [DriverListener.java] [90] [INFO] URL 'https://www.demoblaze.com/' opened
+[2022-03-07 01:15:58] [DriverListener.java] [25] [INFO] PASS: element 'laptopsSection' is clicked.
+[2022-03-07 01:15:59] [IMessager.java] [25] [INFO] TEST [DemoBlazer test - verifyCanGetTheMostExpensiveLaptopPrice] PASSED at [13:15:59 2022-03-07]

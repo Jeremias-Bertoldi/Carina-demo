@@ -1,0 +1,6 @@
+[2022-03-06 04:59:16] [TestRunRegistrar.java] [1] [WARN] Reporting disabled: using no op test run registrar
+[2022-03-06 04:59:16] [IMessager.java] [1] [INFO] TEST [Carina-demo - verifyCanBringTheCheapestPhone] STARTED at [16:59:16 2022-03-06]
+[2022-03-06 04:59:17] [IMessager.java] [79] [INFO] INFO: opening url 'https://www.demoblaze.com/'
+[2022-03-06 04:59:18] [DriverListener.java] [79] [INFO] URL 'https://www.demoblaze.com/' opened
+[2022-03-06 04:59:19] [DriverListener.java] [1] [INFO] PASS: element 'phonesSection' is clicked.
+[2022-03-06 04:59:20] [IMessager.java] [1] [INFO] TEST [Carina-demo - verifyCanBringTheCheapestPhone] PASSED at [16:59:20 2022-03-06]

@@ -1,0 +1,6 @@
+[2022-03-06 05:00:19] [TestRunRegistrar.java] [1] [WARN] Reporting disabled: using no op test run registrar
+[2022-03-06 05:00:19] [IMessager.java] [1] [INFO] TEST [Carina-demo - verifyCanGoToProductsPage] STARTED at [17:00:19 2022-03-06]
+[2022-03-06 05:00:20] [IMessager.java] [128] [INFO] INFO: opening url 'https://www.demoblaze.com/'
+[2022-03-06 05:00:21] [DriverListener.java] [128] [INFO] URL 'https://www.demoblaze.com/' opened
+[2022-03-06 05:00:23] [DriverListener.java] [1] [INFO] PASS: element 'productName' is clicked.
+[2022-03-06 05:00:23] [IMessager.java] [1] [INFO] TEST [Carina-demo - verifyCanGoToProductsPage] PASSED at [17:00:23 2022-03-06]

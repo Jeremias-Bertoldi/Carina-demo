@@ -1,0 +1,4 @@
+[2022-03-07 01:16:36] [TestRunRegistrar.java] [131] [WARN] Reporting disabled: using no op test run registrar
+[2022-03-07 01:16:36] [TestRunRegistrar.java] [131] [WARN] Reporting disabled: using no op test run registrar
+[2022-03-07 01:16:36] [IMessager.java] [131] [INFO] TEST [Api Dollar test - testEvolution [L01]] STARTED at [13:16:36 2022-03-07]
+[2022-03-07 01:16:37] [IMessager.java] [131] [INFO] TEST [Api Dollar test - testEvolution [L01]] PASSED at [13:16:37 2022-03-07]
